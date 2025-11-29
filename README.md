@@ -73,4 +73,4 @@ View the complete project structure: [Project Diagram](https://gitdiagram.com/sh
 
 ## Rate Limiting
 
-The API is protected with rate limiting (3 requests per 10 seconds) using Upstash Redis.
+The API is protected with rate limiting (100 requests per 60 seconds) using Upstash Redis.
